@@ -1,0 +1,18 @@
+{
+  "version": "2.0",
+  "telemetryMode": "OpenTelemetry",
+  "extensions": {
+    "mcp": {
+      "serverName": "LoanDesk",
+      "serverVersion": "1.0.0",
+      "instructions": "Loan desk of the Howest campus. People borrow laptops, sensor kits and cameras. Item ids look like LAP-01. Use list_items to find an id before you borrow or return an item.",
+      "encryptClientState": true,
+      "messageOptions": {
+        "useAbsoluteUriForEndpoint": false
+      },
+      "system": {
+        "webhookAuthorizationLevel": "System"
+      }
+    }
+  }
+}
